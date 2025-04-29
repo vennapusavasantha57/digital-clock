@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .clock-container {
+    text-align: center;
+  }
+  
+  #clock {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0f9d58;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #0c7c43;
+  }
